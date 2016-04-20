@@ -4,6 +4,23 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; https://autohotkey.com/docs/commands/index.htm
 
+; Save on Build for Sublime Text
+; ctrl+b -> ctrl+s and ctrl+b
+$^b::
+{
+    IfWinActive, ahk_exe sublime_text.exe
+    {
+        Send, ^s
+        Send, ^b
+    }
+    IfWinNotActive, ahk_exe sublime_text.exe
+    {
+        Send, ^b
+    }
+    Return
+}
+
+
 ; Save as for Word using 
 ; ctrl+shift+s
 $^+s::
