@@ -3,6 +3,15 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; https://autohotkey.com/docs/commands/index.htm
+; https://autohotkey.com/docs/Hotkeys.htm
+
+; $ fixes infinite loop when calling same key from within command
+; ~ passes key to system while still executing the command
+; ^ is Ctrl
+; + is Shift
+; # for Windows key
+; ! for alt
+
 
 ; Save on Build for Sublime Text
 ; ctrl+b -> ctrl+s and ctrl+b
