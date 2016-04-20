@@ -4,7 +4,8 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; https://autohotkey.com/docs/commands/index.htm
 
-; Save as for Word
+; Save as for Word using 
+; ctrl+shift+s
 $^+s::
 {
     IfWinActive, ahk_exe WINWORD.EXE
@@ -18,6 +19,7 @@ $^+s::
     Return
 }
 
+; Minimizing using CapsLock key
 $Capslock::
 {
     IfWinNotActive, ahk_exe VirtualBox.exe
@@ -34,8 +36,9 @@ $Capslock::
     Return
 }
 
-; AlwaysOnTop
+; AlwaysOnTop - toggles focused windows between staying on top and regular
 ; WindowList := ||$
+; ctrl+space 
 ^SPACE:: 
 {
     ; MsgBox HI
@@ -64,6 +67,9 @@ Return
 
 ; PANDORA
 ; To pause
+; Media key - pause
+; If a pandora window is open, then push key to that
+; otherwise, treat it as normal
 $SC122::
 {
     ; DetectHiddenWindows, On   
@@ -89,7 +95,11 @@ $SC122::
 Return
 }
 
-; To skip  
+; PANDORA
+; To skip
+; Media key - next  
+; If a pandora window is open, then push key to that
+; otherwise, treat it as normal
 $SC119::
 {
     IfWinExist, Pandora
