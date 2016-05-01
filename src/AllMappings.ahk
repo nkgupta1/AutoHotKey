@@ -90,6 +90,13 @@ $Capslock::
 Return
 }
 
+; CHROME - opens a new chrome LWinDown
+; Alt + c
+!c::
+{
+    Run chrome.exe
+    Return
+}
 
 ; PANDORA
 ; To pause
