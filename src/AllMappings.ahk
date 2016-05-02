@@ -90,11 +90,57 @@ $Capslock::
 Return
 }
 
-; CHROME - opens a new chrome LWinDown
+; CHROME - opens a new chrome window
 ; Alt + c
 !c::
 {
     Run chrome.exe
+    Return
+}
+
+; Open gmail and facebook in chrome
+; Alt + g
+!g::
+{
+    RunWait chrome --new-window gmail.com
+    Run chrome facebook.com
+    Return
+}
+
+; Open pandora in new chrome window
+; Alt + w
+!p::
+{
+    Run chrome --new-window pandora.com
+    Return
+}
+
+; Close pandora
+; Alt + shift + w
+!+p::
+{
+    WinClose Pandora
+    Return
+}
+
+; ; Open Spotify
+; !a::
+; {
+;     Run C:\Users\Nikhil\AppData\Roaming\Spotify\SpotifyLauncher.exe
+;     Return
+; }
+
+; Open reddit in chrome
+!r::
+{
+    Run chrome reddit.com
+    Return
+}
+
+; Open Sublime
+!s::
+{
+    Run sublime_text.exe
     Return
 }
 
