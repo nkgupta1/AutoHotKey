@@ -10,8 +10,8 @@ Pause break opens calc
 ctrl+space to toggle AlwaysOnTop  
 Media keys redirect to pandora  
 alt+c to open new chrome window  
-alt+p to open pandora in new window
-alt+shift+p to close pandora
-alt+s to open sublime
-alt+g to open gmail and facebook in new window
-alt+r to open reddit
+alt+p to open pandora in new window  
+alt+shift+p to close pandora  
+alt+s to open sublime  
+alt+g to open gmail and facebook in new window  
+alt+r to open reddit  
