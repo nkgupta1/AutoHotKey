@@ -12,6 +12,13 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; # for Windows key
 ; ! for alt
 
+; planned features:
+    ; ctrl+arrows for mouse movement
+    ; ctrl+esc to dismiss pushbullet notifcations
+
+; alt+g does not open facebook until all chrome windows have been closed
+
+
 
 ; Save on Build for Sublime Text
 ; ctrl+b -> ctrl+s and ctrl+b
@@ -109,7 +116,7 @@ Return
 
 ; Open pandora in new chrome window
 ; Alt + w
-!p::
+!w::
 {
     Run chrome --new-window pandora.com
     Return
@@ -117,7 +124,7 @@ Return
 
 ; Close pandora
 ; Alt + shift + w
-!+p::
+!+w::
 {
     WinClose Pandora
     Return
