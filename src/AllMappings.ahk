@@ -18,7 +18,21 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; alt+g does not open facebook until all chrome windows have been closed
 
+; Open file folder 
+; alt+f
+!f::
+{
+    Run explorer.exe
+    Return
+}
 
+; Open temp folder 
+; alt+t
+!t::
+{
+    Run explorer.exe C:\Users\Nikhil\Desktop\Temp
+    Return
+}
 
 ; Save on Build for Sublime Text
 ; ctrl+b -> ctrl+s and ctrl+b
