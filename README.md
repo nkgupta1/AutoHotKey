@@ -15,5 +15,5 @@ alt+shift+w to close pandora
 alt+s to open sublime  
 alt+g to open gmail and facebook in new window  
 alt+r to open reddit  
-alt+f to open file folder
+alt+f to open file folder  
 alt+t to open temp folder 
