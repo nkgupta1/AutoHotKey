@@ -16,4 +16,5 @@ alt+s to open sublime
 alt+g to open gmail and facebook in new window  
 alt+r to open reddit  
 alt+f to open file folder  
-alt+t to open temp folder 
+alt+t to open temp folder  
+alt+b to open bash terminal  

@@ -18,6 +18,14 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; alt+g does not open facebook until all chrome windows have been closed
 
+; Open bash terminal
+; alt+b
+!b::
+{
+    Run bash.exe
+    Return
+}
+
 ; Open file folder 
 ; alt+f
 !f::
