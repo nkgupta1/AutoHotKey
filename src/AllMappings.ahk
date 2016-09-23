@@ -127,12 +127,12 @@ Return
     Return
 }
 
-; Open gmail and facebook in chrome
+; Open gmail and messenger in chrome
 ; Alt + g
 !g::
 {
     RunWait chrome --new-window gmail.com
-    Run chrome facebook.com
+    Run chrome messenger.com
     Return
 }
 
