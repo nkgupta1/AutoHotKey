@@ -18,6 +18,23 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; alt+g does not open facebook until all chrome windows have been closed
 
+
+; Alternate home shortcut
+; alt+left
+!left::
+{
+    Send, {Home}
+    Return
+}
+
+; Alternate end shortcut
+; alt+end
+!right::
+{
+    Send, {End}
+    Return
+}
+
 ; Open bash terminal
 ; alt+b
 !b::
@@ -178,7 +195,7 @@ Return
 ; Media key - pause
 ; If a pandora window is open, then push key to that
 ; otherwise, treat it as normal
-$SC122::
+$Media_Play_Pause::
 {
     ; DetectHiddenWindows, On   
     IfWinExist, Pandora
@@ -208,7 +225,7 @@ Return
 ; Media key - next  
 ; If a pandora window is open, then push key to that
 ; otherwise, treat it as normal
-$SC119::
+$Media_Next::
 {
     IfWinExist, Pandora
     {
