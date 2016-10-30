@@ -18,3 +18,5 @@ alt+r to open reddit
 alt+f to open file folder  
 alt+t to open temp folder  
 alt+b to open bash terminal  
+alt+left for home  
+alt+right for end  
