@@ -21,7 +21,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; Alternate home shortcut
 ; alt+left
-!left::
+~!left::
 {
     Send, {Home}
     Return
@@ -29,7 +29,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; Alternate end shortcut
 ; alt+end
-!right::
+~!right::
 {
     Send, {End}
     Return
