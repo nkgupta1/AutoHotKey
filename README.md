@@ -4,7 +4,7 @@ Using AHK to customize my computer with keyboard shortcuts and mappings that I f
 
 Summary:  
 SaveOnBuild for Sublime Text  
-ctrl+shift+s: save as for Work  
+ctrl+shift+s: save as for Word  
 CapsLock minimizes Window  
 Pause break opens calc  
 ctrl+space to toggle AlwaysOnTop  
